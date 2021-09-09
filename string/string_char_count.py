@@ -1,3 +1,5 @@
+#author : @akash
+
 s=str(input())
 #aabbccdd
 ans=""
