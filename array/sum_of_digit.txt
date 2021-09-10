@@ -1,0 +1,22 @@
+Program for Sum of the digits of a given number
+Difficulty Level : Easy
+Last Updated : 03 Jun, 2021
+Given a number, find sum of its digits.
+
+Examples : 
+
+Input : n = 687
+Output : 21
+
+Input : n = 12
+Output : 3
+Recommended: Please solve it on “PRACTICE ” first, before moving on to the solution. 
+ 
+General Algorithm for sum of digits in a given number: 
+
+Get the number
+Declare a variable to store the sum and set it to 0
+Repeat the next two steps till the number is not 0
+Get the rightmost digit of the number with help of the remainder ‘%’ operator by dividing it by 10 and add it to sum.
+Divide the number by 10 with help of ‘/’ operator to remove the rightmost digit.
+Print or return the sum
