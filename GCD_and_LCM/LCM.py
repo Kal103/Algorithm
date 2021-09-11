@@ -1,4 +1,4 @@
 import math
-n,m=map(inr,input().split())
+n,m=map(int,input().split())
 ans=math.lcm(n,m)
 print(ans)
